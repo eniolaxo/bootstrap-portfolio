@@ -2,6 +2,11 @@
   font-family: roboto;
 }
 
+body {
+  background-color: rgb(78, 71, 71);
+  color: white;
+}
+
 .jumbotron.jumbotron-fluid {
   background-image: url(../images/jumbo-background-1);
   background-size:cover;
@@ -24,14 +29,20 @@ right: 30px;
 top: 60px;
 }
 
-.container {
-
+.container-a {
+margin-bottom: 100px;
 }
 
-
+.col {
+  color: black;
+}
 
 .row {
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   margin-bottom: 100px;
+}
+
+.img {
+  width: 50px;
 }
