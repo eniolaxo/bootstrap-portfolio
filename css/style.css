@@ -13,6 +13,11 @@ body {
   color: white;
 }
 
+/* .navbar {
+   position:fixed;
+  width: 100%;
+  z-index:10%; 
+} */
 
 .navbar-brand.mb-0.h1 {
   font-family: roboto;
@@ -29,9 +34,7 @@ right: 30px;
 top: 60px;
 }
 
-.container-a {
-margin-bottom: 100px;
-}
+
 
 .col {
   color: black;
@@ -40,9 +43,22 @@ margin-bottom: 100px;
 .row {
   justify-content: start;
   align-items: center;
-  margin-bottom: 100px;
+ 
 }
 
 .img {
   width: 50px;
+}
+
+.contact-me-section {
+ justify-content: end;
+}
+
+/* footer {
+  
+} */
+
+.featurette-divider {
+background-color: rgba(255, 255, 255, 0.785);
+width: 80%;
 }
