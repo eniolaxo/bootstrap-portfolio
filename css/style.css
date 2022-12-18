@@ -78,3 +78,7 @@ background-color: black;
 .contact__content {
   margin-left: 20px;
 }
+
+.float-end:hover {
+color: red;
+}
