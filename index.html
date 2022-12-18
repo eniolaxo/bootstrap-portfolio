@@ -24,27 +24,29 @@
 
 <body>
 
-  <!-- Insert Nav Bar that includes dropdown and other bootstrap features -->
+  <!-- Insert Nav Menu-->
 
-<nav class="navbar navbar-dark bg-dark">
-  <span class="navbar-brand mb-0 h1"></span>
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Work</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
 </nav>
 
 
+<!-- Hero Section -->
   <!-- Insert huge jumbotron image with text and my own image inside of it-->
   <div class="jumbotron jumbotron-fluid">
     <div class="container"> 
@@ -62,7 +64,7 @@
         <div class="row mx-auto">
             <div class="col">
                 <div class="card mb-2 mb-md-0" style="width: 18rem;">
-                    <img class="img-work" src="../bootstrap-portfolio/images/project-1-thumbnail.jpg" class="card-img-top" alt="horiseon thumbnail">
+                    <img class="img-work" src="../bootstrap-portfolio/images/project-1-thumbnail.jpg" alt="horiseon thumbnail">
                     <div class="card-body">
                       <h5 class="card-title">Horiseon Project</h5>
                       <p class="card-text">In this project, I learned more on how to organise and refactor code.</p>
@@ -73,7 +75,7 @@
             </div>
             <div class="col">
                 <div class="card mb-2 mb-md-0" style="width: 18rem;">
-                    <img class="img-work" src="../bootstrap-portfolio/images/project-3-thumbnail.jpg" class="card-img-top" alt="prework thumbnail">
+                    <img class="img-work" src="../bootstrap-portfolio/images/project-3-thumbnail.jpg" alt="prework thumbnail">
                     <div class="card-body">
                       <h5 class="card-title">Prework Project</h5>
                       <p class="card-text">My first-ever project where I got into the basics of HTML.</p>
@@ -84,7 +86,7 @@
             </div>
             <div class="col">
                 <div class="card mb-2 mb-md-0" style="width: 18rem;">
-                    <img class="img-work" src="../bootstrap-portfolio/images/project-2-thumbnail.jpg" class="card-img-top" alt="youtube thumbnail">
+                    <img class="img-work" src="../bootstrap-portfolio/images/project-2-thumbnail.jpg" alt="youtube thumbnail">
                     <div class="card-body">
                       <h5 class="card-title">Youtube Webpage Project</h5>
                       <p class="card-text">Through SuperSimpleDev's tutorial, I built on my CSS and HTML skills.</p>
@@ -94,7 +96,7 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 
     <hr class="featurette-divider">
 
@@ -129,14 +131,14 @@
       </div>
   </div>
 </div>
+</div>
 
 <hr class="featurette-divider">
 
   <!-- About Me/Contact Section -->
-  <div class="container">
+  <div class="container overall">
     <div class="row">
-      <div class="col-md-4">
-        <h2>About Me</h2>
+      <h2 class="about-me-text" href="#About" id="About">About Me</h2>
         <!-- add email and disc (?) in about me -->
         <p>
           My name is Eniola Adebayo and I have no prior experience to coding or web development in general. 
@@ -145,8 +147,7 @@
          currently in university, studying English & Media.
          As I progress, I will be updating this portfolio with more deployed content! Stay tuned 🧚🏾‍♀️
           </p>
-      </div>
-      <div class="contact-me-section">
+          <div class="contact-me-section">
         <h2 class="contact-me-text" href="#Contact" id="Contact">Contact Me</h2>
         <div class="contact__content">
         <a href="mailto:eniolaadebayo9@yahoo.com" target="_blank">
@@ -156,8 +157,11 @@
           <img class="img" src="images/discord-icon.png" alt="discord icon">
         </a>
         </div>
-        </div>
+      
       </div>
+      </div>
+      
+      
       </div>
 
       <hr class="featurette-divider">

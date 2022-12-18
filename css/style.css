@@ -13,25 +13,18 @@ body {
   color: white;
 }
 
-/* .navbar {
-   position:fixed;
-  width: 100%;
-  z-index:10%; 
-} */
+.navbar {
+background-color: black;
+color: white;
+ }
 
-.navbar-brand.mb-0.h1 {
-  font-family: roboto;
-  color: rgb(171, 22, 22);
-}
 
 .me {
   width: 230px;
   height: 240px;
   border-radius: 120px;
  margin-left: 55px;
-position: absolute;
-right: 30px;
-top: 60px;
+
 }
 
 
@@ -41,7 +34,7 @@ top: 60px;
 }
 
 .row {
-  justify-content: start;
+  justify-content: center;
   align-items: center;
  
 }
@@ -54,11 +47,39 @@ top: 60px;
  justify-content: end;
 }
 
-/* footer {
-  
-} */
+footer {
+  justify-content: center;
+} 
 
 .featurette-divider {
 background-color: rgba(255, 255, 255, 0.785);
 width: 80%;
+}
+
+.buttons {
+  
+  align-items: center;
+}
+
+.btn {
+background-color: black;
+}
+
+.btn:hover {
+  background-color: rgb(179, 44, 44);  
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+
+.overall {
+  display: flex;
+}
+.contact__content {
+  margin-left: 20px;
 }
